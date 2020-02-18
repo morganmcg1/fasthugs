@@ -1,7 +1,7 @@
 # FastHugs
 Use fastai-v2 with HuggingFace's pretrained transformers
 
-See this post for a look at the fasthugs demo : http://www.ntentional.com/2020/02/18/fasthugs_demo.html or give the 'fasthugs_demo.ipynb' notebook a spin!
+See this post for a look at the fasthugs demo : http://www.ntentional.com/2020/02/18/fasthugs_demo.html or give the `fasthugs_demo.ipynb` notebook a spin!
 
 
 ## Things You Might Like (❤️ ?)
