@@ -9,6 +9,7 @@ See `fasthugs_seq_classification.ipynb` for a look at the fasthugs demo
 - Added new `get_vocab` functionality from HuggingFace, unified api to extract a tokenizer's vocab
 - Added new `AutoModelForSequenceClassification`, `AutoConfig`, `AutoModelForSequenceClassification` HuggingFace functionality to make things tider
 - Tidied up and refactored `FastHugsTokenizer` and `FastHugsModel`
+- OLD demo and vocab files to be deleted soon 
 
 ## Things You Might Like (❤️ ?)
 **FastHugsTokenizer:** A tokenizer wrapper than can be used with fastai-v2’s tokenizer.
