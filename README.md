@@ -1,21 +1,23 @@
 # FastHugs
 Use fastai-v2 with HuggingFace's pretrained transformers
 
-See this post for a look at the fasthugs demo : http://www.ntentional.com/2020/02/18/fasthugs_demo.html or give the `fasthugs_demo.ipynb` notebook a spin!
+See `fasthugs_seq_classification.ipynb` for a look at the fasthugs demo
 
+## What's New
+
+### April 17, 2020
+- Added new `get_vocab` functionality from HuggingFace, unified api to extract a tokenizer's vocab
+- Added new `AutoModelForSequenceClassification`, `AutoConfig`, `AutoModelForSequenceClassification` HuggingFace functionality to make things tider
+- Tidied up and refactored `FastHugsTokenizer` and `FastHugsModel`
 
 ## Things You Might Like (❤️ ?)
 **FastHugsTokenizer:** A tokenizer wrapper than can be used with fastai-v2’s tokenizer.
 
 **FastHugsModel:** A model wrapper over the HF models, more or less the same to the wrapper’s from HF fastai-v1 articles mentioned below
 
-**Vocab:** A function to extract the vocab depending on the pre-trained transformer (HF hasn’t standardised this processes 😢).
-
 **Padding:** Padding settings for the padding token index and on whether the transformer prefers left or right padding
 
-**Vocab for Albert-base-v2:** .json for Albert-base-v2’s vocab, otherwise this has to be extracted from a SentencePiece model file, which isn’t fun
-
-**Model Splitters**: Functions to split the classification head from the model backbone in line with fastai-v2’s new definition of Learner
+**Model Splitters**: Functions to split the classification head from the model backbone in line with fastai-v2’s new definition of Learner (`splitters`)
 
 ## Read these first 👇
 This notebook heavily borrows from this notebook , which in turn is based off of this tutorial and accompanying article. Huge thanks to Melissa Rajaram and Maximilien Roberti for these great resources, if you're not familiar with the HuggingFace library please given them a read first as they are quite comprehensive.
