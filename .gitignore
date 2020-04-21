@@ -1,0 +1,13 @@
+.ipynb_checkpoints/
+38_tutorial.text.ipynb
+__pycache__/
+esperberto-merges.txt
+esperberto-vocab.json
+fasthugs_T5.ipynb
+fasthugs_bridge.py
+fasthugs_language_model.ipynb
+gaelbert-merges.txt
+gaelbert-vocab.json
+models/
+gawiki/
+old_fasthugs_language-model.ipynb
