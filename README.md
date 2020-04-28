@@ -1,7 +1,8 @@
 # FastHugs
 Use fastai-v2 with HuggingFace's pretrained transformers
 
-See `fasthugs_seq_classification.ipynb` for a look at the fasthugs demo
+- Text classification: `fasthugs_seq_classification.ipynb` 
+- Language model pre-training or fine-tuning (RoBERTa only for now): `fasthugs_language_model.ipynb`
 
 ## What's New
 
