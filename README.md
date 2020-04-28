@@ -5,6 +5,9 @@ See `fasthugs_seq_classification.ipynb` for a look at the fasthugs demo
 
 ## What's New
 
+### April 24, 2020
+- Added `fasthugs_language_model.ipynb` which shows you how to pre-train or fine-tune a Masked Language Model (MLM), RoBERTa in this case, from scratch 
+
 ### April 17, 2020
 - Added new `get_vocab` functionality from HuggingFace, unified api to extract a tokenizer's vocab
 - Added new `AutoModelForSequenceClassification`, `AutoConfig`, `AutoModelForSequenceClassification` HuggingFace functionality to make things tider
